@@ -10,6 +10,16 @@ all you’ll have to do is choose.
 This little library automates the task of generating good sounding names
 given a set of chosen words.
 
+For further informations you can read this article http://www.iptech-group.com/node/438
+
+Limitations
+------------------
+
+Unlike the mentioned article, we don't use weights in our implementation 
+of the objective function.
+The Monte Carlo Method used to optimize our objective function could be 
+vastly improved using standard sampling algorithms.
+
 Using this library
 ------------------
 
